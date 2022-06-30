@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="header-logo">
+            <a href="#"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176" height="44"></a>
+        </div>
+        <div class="nav-link">
+            <p>Store</p>
+            <p>Community</p>
+            <p>About</p>
+            <p>Support</p>
+        </div>
+    </header>
+    <h2 id="main-title">All Games</h2>
+    <main>
+        <div class="search-area">
+            <h3>Search for game</h3>
+            <div id="store-search">
+                <form id="search-form" name="search-form">
+                    <div class="search-box">
+                        <input id="searchForm" name="searchForm" type="text" class="default" placeholder="search" size="22" maxlength="64">
+                        <div id="store-search-link">
+                            <img src="https://store.cloudflare.steamstatic.com/public/images/blank.gif">
+                        </div>
+                    </div>          
+                </form>
+            </div>
+            <div class="category">
+                <div class="category-list">
+                    <h2>Category</h2>
+                    <ul></ul>   
+                </div>
+            </div>        
+        </div>
+        <div id="display-games">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
